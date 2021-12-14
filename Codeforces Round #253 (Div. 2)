@@ -1,0 +1,11 @@
+ #problem-----> A. Anton and Letters
+#Codeforces Round #253 (Div. 2)
+s=input()
+size=0
+s=set(s)
+for a in s:
+    if a>='a' and a<='z':
+        size+=1
+print(size)
+
+
